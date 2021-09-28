@@ -4,16 +4,445 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>LP_Scrollingdown</title>
+    <link rel="stylesheet" href="./sass/style.css">
 </head>
 <body>
+
     <header class="header">
-        <div class="row">
-            <div class="header__navbar">
-                
+        <div class="container">
+            <div class="row">
+                <div class="header__navbar d-flex justify-content-between">
+                    <div class="header__logo align-middle col-lg-8 col-md-8 col-sm-6 col-xs-9 col-6">
+                        <img src="./img/logo.svg" alt="">
+                    </div>
+                    <div class="header__sing d-inline-flex align-middle col-lg-4 col-md-4 col-sm-6 col-xs-3 col-6">
+                        <p class="header__text">Already have an account?</p>
+                        <button class="header__btn">Sign In</button>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
-    
+
+    <!-- <div class="cursors">
+        <button class="cursor animated bounce">
+            <img src="./img/str.svg" alt="">
+        </button>
+    </div> -->
+
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="hero__bloks d-flex flex-wrap col">
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <div class="pix"> </div>
+                        <p class="gif">GIF</p>
+                        <img src="./img/1.jpg" alt="" class="hero__pix">
+                        
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/2.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/3.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/4.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/5.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/6.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/7.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <div class="pix"> </div>
+                        <p class="gif">GIF</p>
+                        <img src="./img/8.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center">
+                        <div class="pix">  </div>
+                        <p class="gif">GIF</p> 
+                        <img src="./img/9.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/10.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/11.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        
+                        <img src="./img/12.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center">
+                        <div class="pixes">  
+                            <p class="pixes-text">Free Registration</p>
+                            <p class="pixes-sub-text">Enjoy free access to the profiles of our fantastic members.</p>
+                        </div>
+                        <img src="./img/13.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/14.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/15.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/16.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/7.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/17.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center">
+                        <div class="pixes">  
+                            <p class="pixes-text">Welcome Bonus</p>
+                            <p class="pixes-sub-text">Get the first 20 credits as a gift</p>
+                        </div> 
+                        <img src="./img/4.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center">
+                        <div class="pix"> </div>
+                        <p class="gif">GIF</p> 
+                        <img src="./img/18.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center">
+                        <div class="pix"> </div>
+                        <p class="gif">GIF</p> 
+                        <img src="./img/1.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/16.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/12.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/10.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/11.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center">
+                        <div class="pixes">  
+                            <p class="pixes-text">Flowers & Presents</p>
+                            <p class="pixes-sub-text">Send real flowers and presents to people you like</p>
+                        </div>  
+                        <img src="./img/6.jpg" alt="" class="hero__pix"> 
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/2.jpg" alt="" class="hero__pix">
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/17.jpg" alt="" class="hero__pix">
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/15.jpg" alt="" class="hero__pix">
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/14.jpg" alt="" class="hero__pix">
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center">
+                        <div class="pix"> </div>
+                        <p class="gif">GIF</p> 
+                        <img src="./img/8.jpg" alt="" class="hero__pix">
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/7.jpg" alt="" class="hero__pix">
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/10.jpg" alt="" class="hero__pix">
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/16.jpg" alt="" class="hero__pix">
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/15.jpg" alt="" class="hero__pix">
+                    </div>
+                    <div class="hero__blok d-flex justify-content-center"> 
+                        <img src="./img/11.jpg" alt="" class="hero__pix">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer__block d-flex justify-content-center">
+                    <a href="" class="footer__text">About Us</a>
+                    <a href="" class="footer__text">Terms of Use</a>
+                    <a href="" class="footer__text">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <div class="popup d-flex justify-content-center">
+
+        <div class="popup__body" id="first">
+            <div class="popup__content" >
+                <p class="popup__title">
+                    One day you will meet this special person
+                </p>
+                <p class="popup__text">
+                    Just don’t give up and keep searching! <br> What if your ideal partner is waiting for <br>you on our site?
+                </p>
+                <button class="popup__btn d-flex justify-content-center" id="first" onclick="myFunction()">Get started</button>
+            </div>
+        </div>
+
+        <div class="popups__body close" id="second">
+            <div class="popups__content">
+                <div class="progress">
+                    <div class="progress-bar w-25" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="popups__text-two">
+                    Here you can meet many young, attractive and caring women who are seeking romance on the web. Are you open to such interaction?
+                </div>
+                <div class="popups__btns d-flex justify-content-center">
+                    <butoon class="popups__btn  no">No</butoon>
+                    <button class="popups__btn yes" onclick="mySeconFunction()">Yes</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="popups__body close" id="three">
+            <div class="popups__content">
+                <div class="progress">
+                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="popups__text-two">
+                    Our female members really like to chat with the men they are interested in. Do you agree to have deep conversations with these amazing women?
+                </div>
+                <div class="popups__btns d-flex justify-content-center">
+                    <butoon class="popups__btn no">No</butoon>
+                    <button class="popups__btn yes" onclick="myThirdFunction()">Yes</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="popups__body close" id="four">
+            <div class="popups__content">
+                <div class="progress">
+                    <div class="progress-bar w-100" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="popups__text-two">
+                    Some of our stunning members want to start a real relationship online. Are you searching for the same?
+                </div>
+                <div class="popups__btns d-flex justify-content-center">
+                    <butoon class="popups__btn  no">No</butoon>
+                    <button class="popups__btn yes" onclick="myFourFunction()">Yes</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="popups__body close" id="five">
+            <div class="popups__content">
+                <div class="popus__numbers d-flex justify-content-around">
+                    <div class="popus__number active-numb">1</div>
+                    <div class="popus__number">2</div>
+                    <div class="popus__number">3</div>
+                    <div class="popus__number">4</div>
+                    <div class="popus__number">5</div>
+                </div>
+            <div class="popups__text-two">
+                I am:
+            </div>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Man seeking a woman</option>
+                <option value="1">Woman seeking a man</option>
+            </select>
+            <div class="popups__btns d-flex justify-content-center">
+                <button class="popups__btn form yes"  onclick="myFiveFunction()">Continue</button>
+            </div>
+            </div>
+        </div>
+
+        <div class="popups__body close" id="six">
+            <div class="popups__content">
+                <div class="popus__numbers d-flex justify-content-around">
+                    <div class="popus__number active-numb">1</div>
+                    <div class="popus__number active-numb">2</div>
+                    <div class="popus__number">3</div>
+                    <div class="popus__number">4</div>
+                    <div class="popus__number">5</div>
+                </div>
+                <div class="popups__text-two">
+                    What is your name?
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" value="Name">
+                    </div>
+                </div>
+                <div class="popups__btns d-flex justify-content-center">
+                    <button class="popups__btn form yes" onclick="mySixFunction()">Continue</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="popups__body close" id="seven">
+            <div class="popups__content">
+                <div class="popus__numbers d-flex justify-content-around">
+                    <div class="popus__number active-numb">1</div>
+                    <div class="popus__number active-numb">2</div>
+                    <div class="popus__number active-numb">3</div>
+                    <div class="popus__number">4</div>
+                    <div class="popus__number">5</div>
+                </div>
+                <div class="popups__text-two">
+                    Please state your date of birth
+                </div>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Month</option>
+                    <option value="1">January</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">July</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                    
+                </select>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Year</option>
+                    <option value="1">2021</option>
+                    <option value="2">2020</option>
+                    <option value="3">2019</option>
+                    <option value="4">2018</option>
+                    <option value="5">2017</option>
+                    <option value="6">2016</option>
+                    <option value="7">2015</option>
+                    <option value="8">2014</option>
+                    <option value="9">2013</option>
+                    <option value="10">2012</option>
+                    <option value="11">2011</option>
+                    <option value="12">2010</option>
+                    <option value="13">2009</option>
+                    <option value="14">2008</option>
+                    <option value="15">2007</option>
+                    <option value="16">2006</option>
+                    <option value="17">2005</option>
+                    <option value="18">2004</option>
+                    <option value="19">2003</option>
+                    <option value="20">2002</option>
+                    <option value="21">2001</option>
+                    <option value="22">2000</option>
+                </select>
+                <div class="popus__text-after">
+                    You affirm that you are at least 18 years of age or the age of majority in the jurisdiction you are accessing MIRRORNAME from, and are fully able and competent to enter MIRRORNAME
+                </div>
+                <div class="popups__btns d-flex justify-content-center">
+                    <button class="popups__btn form yes" onclick="mySevenFunction()">Continue</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="popups__body close" id="eight">
+            <div class="popups__content">
+                <div class="popus__numbers d-flex justify-content-around">
+                    <div class="popus__number active-numb">1</div>
+                    <div class="popus__number active-numb">2</div>
+                    <div class="popus__number active-numb">3</div>
+                    <div class="popus__number active-numb">4</div>
+                    <div class="popus__number">5</div>
+                </div>
+                <div class="popups__text-two">
+                    Please enter your valid email
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="form-floating">
+                        <input type="email" class="form-control" value="Please enter your email">
+                    </div>
+                </div>
+                <div class="popups__btns d-flex justify-content-center">
+                    <button class="popups__btn form yes" onclick="myEightFunction()">Continue</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="popups__body close" id="nine">
+            <div class="popups__content">
+                <div class="popus__numbers d-flex justify-content-around">
+                    <div class="popus__number active-numb">1</div>
+                    <div class="popus__number active-numb">2</div>
+                    <div class="popus__number active-numb">3</div>
+                    <div class="popus__number active-numb">4</div>
+                    <div class="popus__number active-numb">5</div>
+                </div>
+                <div class="popups__text-two">
+                    Create a secure password
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="form-floating">
+                        <input type="password" class="form-control">
+                        <label for="floatingInput" class="textarea-email justify-content-center">Set up solid password</label>
+                    </div>
+                </div>
+                <div class="popus__box-checked d-flex justify-content-around align-items-center">
+                    <input type="checkbox" id="scales" name="scales" checked>
+                    <label for="scales" class="popus__checked">I have read, understand and agree to <a href="#">Terms of Use</a>,<a href="#">Privacy Policy</a> , <a href="">Payment and Refund Policy</a> , <a href="">Disclosures&Disclaimers</a> .</label>
+                </div>
+                <div class="popups__btns d-flex justify-content-center">
+                    <button class="popups__btn form yes">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>
